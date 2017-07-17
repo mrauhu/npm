@@ -1,6 +1,20 @@
 npm(1) -- a JavaScript package manager
 ==============================
 
+> Scoped package `@mrauhu/npm@4.6.1` for painless deploy via [Meteor Up](https://github.com/zodern/meteor-up).
+>
+> Usage:
+>
+> 1. Change value of the field `docker.image` in file `mup.js` to `mrauhu/meteord:base`.
+> 2. Run `mup deploy`.
+>
+> Fixes issues, when you try to deploy a Meteor project with Node binary packages,
+> like `bcrypt`, from the Windows host to the Linux server:
+>
+> * https://github.com/meteor/meteor/issues/7401
+> * https://github.com/abernix/meteord/issues/8
+> * https://github.com/zodern/meteor-up/issues/267
+
 [![Build Status](https://img.shields.io/travis/npm/npm/latest.svg)](https://travis-ci.org/npm/npm)
 
 ## SYNOPSIS
